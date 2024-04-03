@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello, C é chato man\n");
+    int numero = 10;
+    char numero_2 = "10";
+
+    int soma = numero + numero_2;
+
+    printf("%d", soma);
+
     return 0;
 }
